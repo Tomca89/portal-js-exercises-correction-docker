@@ -1,0 +1,25 @@
+{
+  "name": "portal-js-exercises-correction-docker",
+  "version": "1.0.0",
+  "description": "CodeBoxx Portal JS Exercises Correction Docker",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomca89/portal-js-exercises-correction-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomca89/portal-js-exercises-correction-docker/issues"
+  },
+  "homepage": "https://github.com/Tomca89/portal-js-exercises-correction-docker#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "sinon": "^9.2.1"
+  }
+}
