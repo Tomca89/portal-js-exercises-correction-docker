@@ -1,0 +1,52 @@
+Exercise 1: 
+
+	Here is the first exercise you will be assigned with Javascript/JQuery. Previous developers have implemented a form
+	used to calculate CodeBoxx's employees salaries. Unfortunately, we realized that some of the fields implemented 
+	in the HTML form weren't working!
+
+	Your job will be to implement four (4) functions, one for each type of calculation with the name of the functions
+	being the type of calculation: addition, substraction, multiplication, division.
+
+	Using whatever value, each function should have two parameters, and return a Integer or a Decimal value.
+
+	For each function, you are required to call it once, and to use the console.log function to print the return values into your
+	browser's console.
+
+Code:
+
+	JS:
+
+		function addition(a, b) {
+			var additionResult = a + b;
+			console.log(additionResult);
+			return additionResult;
+		}
+
+		function substraction(a, b) {
+			var substractionResult = a - b;
+			console.log(substractionResult);
+			return substractionResult;
+		}
+
+		function multiplication(a, b) {
+			var multiplicationResult = a * b;
+			console.log(multiplicationResult);
+			return multiplicationResult;
+		}
+
+		function division(a, b) {
+			var divisionResult = a / b;
+			console.log(divisionResult);
+			return divisionResult;
+		}
+
+		addition(1, 5);
+		substraction(1.5, 0.3);
+		multiplication(3, 5);
+		division(5, 2.5);
+
+
+Tips: 
+
+	1- Use the console.log() function the verify each value. Use your browser's console to access the output of the console.log()
+	   function.

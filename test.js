@@ -1,4 +1,8 @@
-const calculations = require("./to_test");
+const calculations = require("./to_test1.js");
+const exercise2 = require("./to_test2.js");
+const beans = require("./puppeeter.js");
+
+beans.beans()
 
 describe("Exercise 1", () => {
   it("should exist and be defined", () => {
@@ -21,10 +25,7 @@ describe("Exercise 1", () => {
     expect(calculations.division()).toBeDefined();
   });
 
-
-
   it("should be an addition", () => {
-
     expect(calculations.addition(1, 1)).toEqual(2);
   });
 
@@ -39,17 +40,34 @@ describe("Exercise 1", () => {
   it("should be a division", () => {
     expect(calculations.division(4, 2)).toEqual(2);
   });
+});
 
-  test("function", () => {
-    const mockFnAddition = jest.fn().mockImplementation(() => calculations.addition(1, 1));
-    const mockFnSubstraction = jest.fn().mockImplementation(() => calculations.substraction(4, 5));
-    const mockFnMultiplication = jest.fn().mockImplementation(() => calculations.multiplication(5.6, 4));
-    const mockFnDivision = jest.fn().mockImplementation(() => calculations.division(10, 5));
 
-    expect(mockFnAddition()).toHaveReturnedWith(2);
-    expect(mockFnSubstraction()).toHaveReturnedWith(-1);
-    expect(mockFnMultiplication()).toHaveReturnedWith(22.4);
-    expect(mockFnDivision()).toHaveReturnedWith(2);
+describe("Exercise 2", () => {
+  it("should exist and be defined", () => {
+    expect(typeof exercise2.salaryCalculator).toEqual("function");
+    expect(exercise2.salaryCalculator()).toBeDefined();
   });
 
+  //salariesAddition = 3228
+  it("salariesAddition should equal 3228", () => {
+    expect().toBeDefined();
+    expect(salariesAddition).toBe(3228);
+  });
+
+  //tax = document.getElementById("tax").value;
+  it("tax should be defined and be 5", () => {
+    expect(tax).toBeDefined();
+    expect(tax).toBe(5);
+  });
+
+  //result = 645,60
+  it("result should be defined and be 645.6", () => {
+    expect(result).toBeDefined();
+    expect(result).toBe(645.6);
+  });
+
+  it("should return 645.6", () => {
+    expect(exercise2.salaryCalculator()).toEqual(645.6);
+  });
 });

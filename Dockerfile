@@ -1,6 +1,6 @@
 FROM node:12
 
-//instsall npm ou check al doc
+//install npm ou check la doc
 
 RUN mkdir /correctionApp
 WORKDIR /correctionApp

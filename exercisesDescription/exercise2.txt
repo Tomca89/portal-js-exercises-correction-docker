@@ -1,0 +1,78 @@
+Exercise 2: 
+
+	Here is the second exercise you will be assigned with Javascript/JQuery. Previous developers have implemented a form
+	used to calculate CodeBoxx's employees salaries. Unfortunately, we realized that some of the fields implemented 
+	in the HTML form weren't tested!
+
+	Your job will be to fetch the values of different fields and return the result of the calculation of these fields.
+	
+	First off, we would ask of you to get the values of the three fields containing the "salary" class.
+
+	Once you got the values of these three fields, addition them together and stock the result of this addition
+	into a new variable named: "salariesAddition".
+
+	Then, get the value of the field containing the "tax" id and stock it into a new variable named: "tax".
+
+	When that's done, divide the result of your addition by the variable which was taken from the "tax" id field.
+
+	The result of this division should be stocked in a new variable named: "result", which would be the variable you'll return.
+
+	All of this should be contained in a function named: "salaryCalculator".
+
+	--------
+	| 1001 |   class: salary
+	--------
+
+	--------
+	| 1253 |   class: salary
+	--------
+
+	--------
+	| 974 |    class: salary
+	--------
+
+	--------
+	| 5    |  id: tax
+	--------
+
+
+Code:
+
+	JS:
+
+	function salaryCalculator() {
+		var salaries = document.getElementsByClassName("salary");
+
+		for (var i = 0; i < salaries.length; i++) {
+			console.log(salaries[i].value);
+		}
+
+		var salariesAddition = parseInt(salaries[0].value) + parseInt(salaries[1].value) + parseInt(salaries[2].value);
+		console.log(salariesAddition);
+
+		var tax = document.getElementById("tax").value;
+		console.log(tax);
+
+		var result = salariesAddition / tax;
+
+		return result;
+	}
+	
+
+
+Result: 645,60
+
+
+Challenges: 
+	
+	1- Since we need to fetch multiple values from a same class, you can loop through the length of the salary class array, 
+	   to find the different values.
+
+	2- The addition of the three salary values can be complicated, in the way that you need to specify the addition of each
+	   element of your array, as an Integer. But you originally fetch the value as a String.
+
+
+Tips: 
+
+	1- Use the console.log() function the verify each value. Use your browser's console to access the output of the console.log()
+	   function.
