@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mocha Tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
+  </head>
+  <body>
+    <input disabled class="salary" value="1001">1001</input>
+    <input disabled class="salary" value="1253">1253</input>
+    <input disabled class="salary" value="974">974</input>
+    
+    <input disabled id="tax" value="5">5</input>
+    
+    
+    
+    <div id="mocha"></div>
+    
+    <script src="node_modules/chai/chai.js"></script>
+    <script src="node_modules/mocha/mocha.js"></script>
+ 
+    <script class="mocha-init">
+      mocha.setup('bdd');
+      mocha.checkLeaks();
+    </script>
+    <script src="to_test2.js"></script>
+    <script src="to_test2.spec.js"></script>
+    <script class="mocha-exec">
+      mocha.run();
+    </script>
+  </body>
+</html>
+
+
