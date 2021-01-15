@@ -1,0 +1,61 @@
+For this exercise, you will learn about classes and objects. 
+
+Context: Your employer, Rocket Cars has asked you to keep track of its new dealership, your boss is getting tired of filling everything by hand on excell sheets.
+
+Rocket cars wants you to create a class that will act as a "Template" for an object that will represent the dealership.
+
+You must create a class that represents these attributes:
+- the average number of cars sold per day ( attribute name: average_sold)
+- the number of cars currently in the dealership ( attribute name: cars_inside)
+- the address of the dealership ( attribute name: address)
+- the number of employees ( attribute name: number_employees)
+
+your boss also wants you to create a method that will calculate the percentage of people on cars in the dealership
+
+to do so:
+
+	divide the number of cars inside the dealership by the number of employees and multiply the result by 100
+	
+	if the number is not even, you must round it using Math.round()
+	
+	the result should be a number between 0 and 100,
+	
+	return the result in a method called caculateRatio()
+
+
+
+Dealership:
+
+	-Average number of cars sold per day: 5
+	-Cars inside the dealership: 252
+	- Employees: 15
+	- Address: 4468 rue wellington
+
+
+Example of a class:
+
+class Car { --Define the name of the class
+  constructor(brand, color){ ---Define the class attributes
+    this.brand = brand
+    this.color = color
+  }
+
+  drive(){ --- method named "drive" that returns a string which contains "vroom vroom"
+    return 'vroom vroom'
+  }
+}
+
+
+const My_Car = new Car("Ford", "Red") ---> Create a new car object
+
+console.log(My_Car.color) ---> "Red"
+console.log(My_Car.brand) ---> "Ford"
+console.log(My_Car.drive()) ---> "Vroom Vroom"
+
+
+
+
+
+
+
+Good luck :)
