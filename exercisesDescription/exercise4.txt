@@ -4,40 +4,45 @@ Context: Your employer, Rocket Cars has asked you to keep track of its new deale
 
 Rocket cars wants you to create a class that will act as a "Template" for an object that will represent the dealership.
 
-You must create a class that represents these attributes:
-- the average number of cars sold per day ( attribute name: average_sold)
+You must create a class named Dealership that represents these attributes:
 - the number of cars currently in the dealership ( attribute name: cars_inside)
-- the address of the dealership ( attribute name: address)
 - the number of employees ( attribute name: number_employees)
 
-your boss also wants you to create a method that will calculate the percentage of people on cars in the dealership
+your boss also wants you to create a method called caculateRatio() that will calculate the percentage of people on cars in the dealership
 
 to do so:
 
-	divide the number of cars inside the dealership by the number of employees and multiply the result by 100
+	multiply the number of cars inside the dealership by the number of employees and divide the result by 100
 	
-	if the number is not even, you must round it using Math.round()
+	if the number is not whole number, you must round it using Math.round()
 	
 	the result should be a number between 0 and 100,
 	
-	return the result in a method called caculateRatio()
+	return the result inside the method
 
 
+Create an object from this class, named RocketCars using the data below
 
 Dealership:
-
-	-Average number of cars sold per day: 5
-	-Cars inside the dealership: 252
+	- Cars inside the dealership: 252
 	- Employees: 15
-	- Address: 4468 rue wellington
+	 //result: 38 (37.8)
+
+
+What is a class ?
+
+A class in javascript is kinda like a "Template" for an object that you will create, when creating an object from this class, your object will inherit all its methods, and you can then fill in the attributes with your data.
+
+take a look at the example below, this example is what a Class representing a car would look like. 
+
 
 
 Example of a class:
 
 class Car { --Define the name of the class
   constructor(brand, color){ ---Define the class attributes
-    this.brand = brand
-    this.color = color
+    this.brand = brand --- tell javascript that Car.brand and brand inside the constructor are the same
+    this.color = color	--- tell javascript that Car.color and color inside the constructor are the same
   }
 
   drive(){ --- method named "drive" that returns a string which contains "vroom vroom"
