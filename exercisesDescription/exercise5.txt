@@ -1,0 +1,57 @@
+Welcome to this new exercise, in this exercise, you will learn about basic data types in Javascript. 
+
+Data types are very important when it comes to programming, and learning which one to use in which cases is a must !
+
+let's first start by enumerating a list of all the basic data types in Javascript.
+
+
+-Numbers (or integers)
+
+- Strings (Or a piece of text)
+
+- boolean (True or False)
+
+- Null (Non existent)
+
+- Undefined (Self Explanatory, the item exists but is not defined. In other words, the item itself is not null, rather its value is)
+
+- Objects
+
+- arrays (List of stuff)
+
+Your boss at Rocket Cars really liked the stuff you made for him before, he's getting super hyped up with thec and can't wait to see what your next realization for his business will be.
+
+However, your boss would like you to undergo some training before you go on your next journey.
+
+The goal of your task will be the following:
+
+Demonstrate that you understand the difference between each Data type by completing the given exercise
+
+Your task:
+
+Create the following variables with their right data type and value.
+
+Here's the list of your variable names, their types and what they should contain.
+
+Remember that if you are unsure of the type of your variable. you can console log its type by using console.log(typeof(VARIABLE_HERE))
+
+- dealership, string, "Rocket Cars"
+
+- isStoreOpened, boolean, False
+
+- cars, array, "Lamborghini, Ferrari"
+
+- carNum, number, 2
+
+
+Good luck ! :)
+
+
+
+
+
+
+
+
+
+

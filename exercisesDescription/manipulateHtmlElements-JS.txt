@@ -1,0 +1,33 @@
+Exercise ListManipulation: 
+
+	Here at Rocket Cars, we decided to stock our three car models, into a list. Unfortunately, our developer took a random list out on the Internet, and doesn't know
+	how to modify it. Here's the list:
+
+	var cars = ["Plane2", "Apples", "Model221"];
+
+
+	Using Javascript, empty the "cars" list. When the "cars" list is emptied, try and append these three values to the list, in whatever order:
+
+	"model-1"
+	"model-2"
+	"model-3"
+	
+	Then, return the "cars" list.
+
+	* Keep in mind that they are multiple ways to empty an array! *
+
+
+Code: Whatever the way they empty the array, as long as the cars array ends up with "model-1", "model-2", "model-3" (whatever the order)
+
+* while (cars > 0) {
+    cars.pop();
+  }
+
+* while (cars.length) {
+    cars.pop();
+  }
+
+
+* cars.length = 0;
+
+* cars = [];

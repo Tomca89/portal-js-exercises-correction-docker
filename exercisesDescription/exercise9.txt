@@ -1,0 +1,115 @@
+Welcome to Jquery Selectors ! previously you learned about QuerySelector in vanilla Javascript. Now it's time to introduce you to the DOM navigation within Jquery.
+
+
+first off, there are multiple type of selectors available. You can target
+
+- A specific tag 
+
+- A class
+
+- An ID
+
+- A specific tag and its name
+
+
+
+HTML:
+
+<p id="test" value="car">Hello world</p>
+
+
+Here's how to do all of those Using Jquery.
+
+
+
+Here's the syntax of a DOM query inside Jquery.
+
+- $('#ID')
+
+- Jquery('#ID')
+
+$ --- to call Jquery
+
+# to specify that we are targeting an ID
+
+Note: if you are targeting a class, use '.class'
+
+- for an ID use #
+
+- for a tag just enter the tag without the <> like for example: <p> becomes 'p'
+
+- for a tag with a certain Name, use the tag and add this, 'tag[name=test]' like for example, a paragraph with the name "MyP", that would be 'p[name=MyP]'
+
+
+
+In this exercise, you will create 2 variables, one that holds the Homepage Text and one for the HTMLElement value, but this time, Using Jquery !
+
+
+again you will have to use the .innerHTML attribute, but this time, you will need to use the Jquery Variation.
+
+this variation is .html() 
+
+so if we combine everything.
+
+<p class="target" id="test" name="ferrari" value="fuel" >My car goes fast !</p>
+
+if you target a class ----> $('.target').html() ----> "My car goes fast"
+
+if you target a class ----> $('.target').val() ----> "fuel"
+
+if you target an id ----> $('#test').html() ---> "My car goes fast"
+
+if you target an id ----> $('#test').val() ----> "fuel"
+
+if you target a tag ---> $('p').html() ----> "My car goes fast"
+
+	Note: if there are multiple tags of the same sort. such as multiple <p> tags in your document. An array is returned, the first tag will be at position 0, and the last one at -1, you can call them like so:
+
+<p class="target" id="test" name="ferrari" value="fuel" >My car goes fast !</p>
+
+<p class="targetted" id="tested" name="tesla" value="electricity" >My car goes even faster !</p>
+
+const myTag = $('p').html() ----> myTag[0] ----> "My Car goes fast" -----> myTag[1] -----> "My car goes even faster !"
+
+
+
+Now that you understand the basics of Jquery. We can start working on actual code.
+
+
+
+Reminder of your task:
+
+
+create 2 variables, one that holds the Homepage Text and one for the HTMLElement value, but this time, Using Jquery !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

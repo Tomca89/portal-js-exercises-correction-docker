@@ -1,0 +1,38 @@
+Welcome to this new exercise. In this exercise, you will learn how to save HTML values in Js
+
+Your boss wants you to be able to store the message on the website's homepage inside a Javascript variable.
+
+to do so, you will use Vanilla Javascript to interact with the DOM.
+
+
+here's an example on how this could be achieved using a simple <p></p> tag in HTML
+
+
+HTML:
+
+<p id="MyVal" value="sample">This is my sample Paragraph</p>
+
+Now, here we have a small "problem" we have 2 values ! we have "sample" and "This is my sample paragraph".
+
+Let me explain, whatever value you put inside value="" is not the text being showed on screen, rather it's a value assigned to the HTML element itself.
+
+Now let's see how we can grab these 2 values using Javascript.
+
+
+JS:
+
+document.querySelector('#MyVal').getAttribute('value') ----> "sample"
+
+document.querySelector('#MyVal').innerHTML ---> "This is my sample paragraph"
+
+
+Now, your boss gave you an HTML file containing a simple Paragraph with a message. He wants you to store this message inside a variable called message.
+
+Your boss would also like you to store the internal value of the element in a variable called internal.
+
+
+good luck !
+
+
+
+

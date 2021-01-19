@@ -1,0 +1,40 @@
+Loops Exercise:
+	
+	Here at Rocket Elevators, we realized that we needed the usage of a for loop to make our elevators go up or down. 
+	For that, we hired a developer to add this for loop to our program. I guess that must be you then!
+
+	Here are some things you might need to know to do the job:
+		
+		You have to create an "elevatorMovement" function.
+
+		In the "elevatorMovement" function, we expect to see an if condition, that conditions wether the "direction" variable is equal to "up" or "down"
+
+		If the direction variable is equal to "up", we expect a for looping going up as long as the current floor is smaller than the end of the floorlist. 
+	
+		It should be the opposite if the direction variable is equal to "down", as long as the current floor is bigger than the floor 0. 
+
+		As a result of the looping, you can console.log the current floor of each iteration of the loop.
+
+		Keep in mind that if the user is going up, he would start at floor 0, but if he is going down, he'd start at floor 10.
+
+
+
+
+
+Code: 
+	JS:
+		
+
+		function elevatorMovement() {
+
+			if (direction == "up") {
+				for (i = 0; i < floorlist.length; i++) {
+					console.log(floorlist[i])
+				}
+			} else {
+				for (i = 10; i > 0; i--) {
+					console.log(floorlist[i])
+				}
+			}			
+
+		}

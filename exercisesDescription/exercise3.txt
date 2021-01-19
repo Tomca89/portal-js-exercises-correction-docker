@@ -1,0 +1,32 @@
+Exercise 3:
+
+	Your employer, Rocket Cars, has asked you to keep track of its new dealership. Your boss is getting tired of filling everything by hand on Excel sheets.
+
+	Rocket Cars wants you to create a function to calculate how many weeks it would take to sell all their cars.
+	You must create 2 variables that'll represent: 
+	
+	- The average number of cars sold per day
+	- The number of cars currently in the dealership 
+
+
+	Your function must be named 'SalesCalculator' and has to return a number which represents the amount of weeks it would take to sell all their cars.
+
+	To do so: divide **the number of cars in the dealership** by **the average number of cars sold per day Multiplied by 5**.
+
+	Your function must return the result of this equation.
+
+	Good luck :)
+
+
+Code:
+	JS:
+		function SalesCalculator {
+		
+			var averageCarsSoldByDay = 10;
+			var numberCarsInTheDealership = 200;
+
+			var result = numberCarsInTheDealership / averageCarsSoldByDay * 5;
+		
+			return result;
+		};
+
