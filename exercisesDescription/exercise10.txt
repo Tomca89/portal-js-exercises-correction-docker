@@ -1,0 +1,36 @@
+Welcome ! in this exercise you will learn about events ! events are very important since you will be using them ALOT.
+
+
+let's go over what's an event quickly.
+
+An event is something that happens, Fairly simple right ?, so wheter it be, a mouse click, a keyboard press, even a mouse movement. 
+
+The possibilities of events are really large, so I won't cite them all, but you can view them all here: ---Insert link later---
+
+
+How do you use an Event ?, to use Events it's pretty simple, the most common form of calling events is using the "on" callback function.
+
+what is a callback function ? -- a callback function, is a function that gets executed later on in the code. It gets executed when the event is happening.
+
+As an example:
+
+HTML: 
+
+
+<p id='test'></p>
+
+
+JS:
+
+$('#test').on('click', function(){
+console.log('hello world');
+});
+
+
+The following piece of code would log "hello world" in the console
+
+
+Your Task:
+
+
+return the string "Rocket Cars" when the Button on the page is clicked using Jquery Events.

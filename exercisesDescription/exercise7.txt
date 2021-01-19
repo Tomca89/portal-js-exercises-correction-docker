@@ -1,0 +1,49 @@
+In the latest exercise, you learned how to grab values from an HTML file using Javascript. 
+
+Now in this exercise, your boss would like to be able to change the Homepage message with something else, but without going through the trouble of editing the HTML again.
+
+Your boss wants you to write a simple JS script to change the message inside the Parapgrah without going through the HTML again, to do so. You will need to use the skills you learned prior, with the Javascript Query Selector.
+
+
+Your goal -
+
+You must create a variable named "NewMessage" which sets the Inner HTML text of the <p> tag, to "Welcome to Rocket Cars"
+
+
+here's an example on how you can achieve that.
+
+
+take this HTML for example.
+
+
+HTML:
+
+
+<div class="myFields">
+
+<p id="MessageHome">Hello world !</p>
+
+</div>
+
+
+this HTML would display a simple paragraph tag with "Hello world" written in it.
+
+now how can we edit this message without going through the HTML ?
+
+
+it's rather simple !
+
+in Javascript, there's an attribute called InnerHTML. this attribute refers to everything in between the HTML tags. so for example <p>hello</p> innerHTML would grab "hello".
+
+now, in the previous exercise, you learned how to store the text inside a variable. But what about changing it ? It's very simple ! 
+
+
+JS:
+
+let myVar = document.querySelector('#MessageHome').innerHTML = "My new text" !
+
+
+
+Good luck :)
+
+

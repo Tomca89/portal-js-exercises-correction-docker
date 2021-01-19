@@ -1,0 +1,26 @@
+Welcome to your first Jquery Exercise ! The world of Javascript is filled with tools and libraries to help make your life easier.
+
+Jquery is one of them !
+
+Believe it or not navigating the DOM in  vanilla javascript used to be somewhat of a complicated task, this is where Jquery came in Handy.
+
+Nowadays, you don't NEED Jquery for your project, but it's still very useful. 
+
+
+Now this exercise aims to teach you about Document Ready.
+
+
+A javascript page cannot be edited untill the Document is ready, that means that the whole document has loaded, with jquery, there is a way to make sure this document loads properly, and we are able to execute code as soon as it's ready.
+
+
+
+
+
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
+
+
+
+Your task: Prove that your document is ready by console logging "Rocket Cars" as soon as the document is ready, using Jquery. 

@@ -1,8 +1,6 @@
-Welcome to this new exercise. In this exercise, you will learn how to display JS values inside HTML.
+Welcome to this new exercise. In this exercise, you will learn how to save HTML values in Js
 
 Your boss wants you to be able to store the message on the website's homepage inside a Javascript variable.
-
-However, your boss wants you to be able to change the String of text any time, inside the Javascript, and have the changes reflected on the website, without touching the HTML.
 
 to do so, you will use Vanilla Javascript to interact with the DOM.
 
@@ -28,7 +26,7 @@ document.querySelector('#MyVal').getAttribute('value') ----> "sample"
 document.querySelector('#MyVal').innerHTML ---> "This is my sample paragraph"
 
 
-Now, your boss gave you an HTML file containing a simple Jumbotron with a message. He wants you to store this message inside a variable called message.
+Now, your boss gave you an HTML file containing a simple Paragraph with a message. He wants you to store this message inside a variable called message.
 
 Your boss would also like you to store the internal value of the element in a variable called internal.
 

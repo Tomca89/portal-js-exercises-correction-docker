@@ -1,0 +1,13 @@
+Exercise: 
+	
+		Recently, we changed the color of one of our models. The model contained in the element with the ID: "model-1", is now colored: "red".
+
+		The simple task here would be to getting the element, and changing it's color to red.
+
+		Using Jquery, your task would be to trigger the CSS of the "model-1" and change the color approprietly.
+
+
+Code: 
+
+
+		$("#model-1").css("color", "red");
