@@ -1,0 +1,51 @@
+Conditions Exercises:
+		
+	In this exercise,  if conditions will be the main subject explored.
+
+	Yesterday, employee's at Rocket Cars found out that the business was actually selling more than just cars, they were also selling elevators, and lawn-mowers
+	for some reason! 
+
+	Here's what Rocket Cars' employees figured out: 
+		
+		- Any shop located in Quebec City should be selling elevators.
+		- Any shop located in Tampa Bay should be selling lawn-mowers.
+		- Any other shop not located in Quebec City nor Tampa Bay should be selling cars.
+
+	
+	Here's what's asked of you:
+
+		In a function named: "productCondition", create an if condition that would represent what Rocket Cars' employees figured out.
+	
+		Also make sure, you are using not only the "if" keyword, but also "else if" and "else".
+
+		For your conditioning, you can use the "location" variable, that has already been created previously, and the RE-Cities.
+	
+		For the results of your conditioning, you can use the "shopProduct" variable, that has already been created previously, and the RE-Products.
+
+
+RE-Cities (strings):
+	- "Quebec City"
+	- "Tampa Bay"
+	- others
+
+RE-Products (strings):
+	- "elevators"
+	- "cars"
+	- "lawn-mowers"
+
+
+Code:
+	JS:
+		
+		function productCondition() {
+			
+			if (location == "Quebec City") {
+				shopProduct = "elevators"
+			} else if (location == "Tampa Bay") {
+				shopProduct = "lawn-mowers"
+			} else {
+				shopProduct = "cars"
+			}
+		}
+
+				
