@@ -33,4 +33,6 @@ The following piece of code would log "hello world" in the console
 Your Task:
 
 
-return the string "Rocket Cars" when the Button on the page is clicked using Jquery Events.
+create an empty string variable named "MyString";
+
+Add the code to set the value of this variable to "Rocket Cars" whenever the button on the page is clicked.
