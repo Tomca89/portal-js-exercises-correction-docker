@@ -1,0 +1,1 @@
+jQuery.ready = () => 'Rocket Cars'

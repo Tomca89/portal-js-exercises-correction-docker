@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -6,14 +7,7 @@
     <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
   </head>
   <body>
-    <input disabled class="salary" value="1001">1001</input>
-    <input disabled class="salary" value="1253">1253</input>
-    <input disabled class="salary" value="974">974</input>
-    
-    <input disabled id="tax" value="5">5</input>
-    
-    
-    
+    <p id="rocket" value="test">Hello World</p>
     <div id="mocha"></div>
     
     <script src="node_modules/chai/chai.js"></script>
@@ -23,8 +17,9 @@
       mocha.setup('bdd');
       mocha.checkLeaks();
     </script>
-    <script src="htmlElements.js"></script>
-    <script src="htmlElements.spec.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="to_test_8.js"></script>
+    <script src="to_test_8.spec.js"></script>
     <script class="mocha-exec">
       mocha.run();
     </script>
